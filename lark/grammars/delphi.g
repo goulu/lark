@@ -616,9 +616,7 @@ RBRACK2           : ".)"
 POINTER2          : "^"   
 AT2               : "@"   
 DOT               : "."   // ("." {$set_type(DOTDOT)})?  
-DOTDOT            : ".."  
-LCURLY            : "{"   
-RCURLY            : "}"        
+DOTDOT            : ".."    
 
 //****************************
 //section token

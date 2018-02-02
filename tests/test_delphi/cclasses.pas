@@ -3132,7 +3132,7 @@ end;
       var
         dataindex: longint;
       begin
-        // don't use bitpacked array, not endian-safe }
+        { don't use bitpacked array, not endian-safe }
         dataindex:=index shr 3;
         if (dataindex>=datasize) then
           grow(dataindex+16);
